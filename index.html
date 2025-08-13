@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & The Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>CSS Basics & The Box Model</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#box-model">Box Model</a></li>
+                <li><a href="#examples">Examples</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="overview" class="content-section">
+            <h2>Understanding CSS Fundamentals</h2>
+            <p>CSS (Cascading Style Sheets) is a language used to style and layout web pages. It allows us to control the appearance of HTML elements, including colors, fonts, spacing, and positioning.</p>
+            <p>In this demonstration, we'll explore how the CSS Box Model works and how it affects the layout of elements on a page.</p>
+        </section>
+
+        <section id="box-model" class="content-section">
+            <h2>The CSS Box Model</h2>
+            <p>Every HTML element is treated as a box in CSS. The Box Model consists of four main components:</p>
+            <div class="box-model-diagram">
+                <div class="content-box">Content</div>
+                <div class="padding-box">Padding</div>
+                <div class="border-box">Border</div>
+                <div class="margin-box">Margin</div>
+            </div>
+            <p>Understanding how these properties interact is crucial for creating well-designed layouts.</p>
+        </section>
+
+        <section id="examples" class="content-section">
+            <h2>Practical Examples</h2>
+            <p>Below are three cards that demonstrate the CSS properties and Box Model concepts we've discussed.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3>Card 1</h3>
+                    <p>This card demonstrates padding, margins, and borders. Notice how the spacing creates visual hierarchy.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+                
+                <div class="card">
+                    <h3>Card 2</h3>
+                    <p>Each card has consistent spacing and styling, showing how CSS creates uniform design patterns.</p>
+                    <button class="btn">Explore</button>
+                </div>
+                
+                <div class="card">
+                    <h3>Card 3</h3>
+                    <p>The Box Model ensures proper spacing between elements and creates a clean, organized layout.</p>
+                    <button class="btn">Discover</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Key CSS Properties Demonstrated</h2>
+            <div class="properties-list">
+                <div class="property-item">
+                    <h4>Color & Typography</h4>
+                    <p>Text colors, font sizes, and font families</p>
+                </div>
+                <div class="property-item">
+                    <h4>Spacing</h4>
+                    <p>Margins and padding for layout control</p>
+                </div>
+                <div class="property-item">
+                    <h4>Borders</h4>
+                    <p>Border styles, widths, and colors</p>
+                </div>
+                <div class="property-item">
+                    <h4>Backgrounds</h4>
+                    <p>Background colors and visual separation</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 CSS Basics Assignment. Demonstrating the power of CSS and the Box Model.</p>
+    </footer>
+</body>
+</html>
